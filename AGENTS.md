@@ -124,7 +124,9 @@ No test suite — `bun run build` + prod smoke test is the gate.
   `pdfjs-dist` version — upgrading the package requires copying
   `node_modules/pdfjs-dist/build/pdf.worker.min.mjs` again.
 - Channels (`/channels`, `/channels/[id]`) come from the stable `master`
-  branch registry (`lib/channels.ts`) and list YouTube uploads through
+  branch registry (`lib/channels.ts`) — three channels: Islah
+  (`@islahbd`), Islahi Ghazal (`@IslahiGhazal`), Islahi Boyan
+  (`@islahiboyan`) — and list YouTube uploads through
   youtubei.js' InnerTube API. That lib is **Node-only** — keep the channel
   routes on the Node runtime and keep `youtubei.js` in
   `experimental.serverComponentsExternalPackages`. Continuation tokens are

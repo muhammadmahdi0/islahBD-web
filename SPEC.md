@@ -182,7 +182,8 @@ offline-tolerant, keyless APIs only.
 
 ### 4.6 Channels (YouTube, ported from `master`)
 - Registry `lib/channels.ts` from the stable `master` branch — Islah
-  (`@islahbd`) + Islahi Ghazal (`@IslahiGhazal`); avatars come from
+  (`@islahbd`) + Islahi Ghazal (`@IslahiGhazal`) + Islahi Boyan
+  (`@islahiboyan`, added on `alpha`); avatars come from
   `/api/channel/[id]/meta` (name + avatar only, never the video listing)
 - `lib/innertube.ts` lists uploads through youtubei.js' keyless InnerTube
   API (Node runtime only); `serverComponentsExternalPackages` keeps it out

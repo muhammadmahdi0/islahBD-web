@@ -38,7 +38,7 @@ No env vars needed. All upstream APIs are keyless.
 | Poems, Munajate, Malfuzat, Self-purification | `/poem`, `/munajate`, `/malfuzat`, `/self-purification` |
 | Live broadcast, Boyan, Hamd/Naat | `/live`, `/boyan`, `/hamdnaat` |
 | Library + kitab reader, Short clips, Gallery/Wallpaper | `/library`, `/library/[id]` (chapter reader / PDF fallback), `/media`, `/gallery`, `/wallpaper` (`/nasheed` → `/hamdnaat`) |
-| Channels (YouTube) + video listing | `/channels`, `/channels/[id]` |
+| Channels (YouTube) + video listing — Islah, Islahi Ghazal, Islahi Boyan | `/channels`, `/channels/[id]` |
 | Paribar/Baiyat, Fatwa, Notice, Notifications | `/paribar` (family hub: biography, mission, applications, connect), `/mission` (Shaykh's mission, beta), `/fatwa`, `/notice`, `/notifications` |
 | Seerah Maps (Others hub) — places guide + map | `/seerah` (guide + inline "Map of Locations"), `/seerah/map` (full-screen map) |
 | Donate, Support, Settings, Others hub, Member | `/donate`, `/support`, `/settings`, `/others`, `/member` |
